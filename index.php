@@ -8,9 +8,6 @@
 </head>
 <body>
     <h1>macksa</h1>
-    safsaffsafsaf
-    safdsafsafsafsafsafsafsasa
-    bruh monkey
-    sadsadsadsadsaddsadsadsadsadsadsa
+    
 </body>
 </html>
