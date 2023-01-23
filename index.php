@@ -7,10 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>macksa</h1>
-    safsaffsafsaf
-    safdsafsafsafsafsafsafsasa
-    bruh monkey
-    sadsadsadsadsaddsadsadsadsadsadsa
+    <?php 
+    class Kviz
+    {
+        public $db = 0; 
+        public mysqli $csatlakozas;
+        function __construct()
+         {
+            $this->csatlakozas = new mysqli("localhost","root","","lipak");
+        }
+        function KvizzKiiras()
+        {
+            
+            $lekeres = $this->csatlakozas->query("SELECT * from kviz");
+            while($adat = $lekeres->fetch_assoc())
+            {
+                if($adat["id"]>$db)
+                {
+                    $db = $adat["id"];
+                }
+            }
+
+        }
+    }
+    ?>
 </body>
 </html>
