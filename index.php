@@ -18,7 +18,6 @@
         }
         function KvizzKiiras()
         {
-            
             $lekeres = $this->csatlakozas->query("SELECT * from kviz");
             while($adat = $lekeres->fetch_assoc())
             {
@@ -26,6 +25,17 @@
                 {
                     $db = $adat["id"];
                 }
+            }
+            $i = 0;
+            while($adat = $lekeres->fetch_assoc())
+            {
+                
+               $random=rand(0,$db);
+                if($random != $tomb[$i])
+                {
+                    
+                }
+                $i++;
             }
 
         }
