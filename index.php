@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
+    <h1>macksa</h1>
+    
+=======
     <?php 
     class Kviz
     {
@@ -41,5 +45,6 @@
         }
     }
     ?>
+>>>>>>> 56b474f62de4d164693b6882dbe0974759887537
 </body>
 </html>
